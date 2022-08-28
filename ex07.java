@@ -15,6 +15,7 @@ public class ex07 {
         System.out.print("Qual velocidade constante até o destino final? ");
 
         vel =  in.nextFloat();
+        in.close();
 
         temp = dist/vel;
 

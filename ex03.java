@@ -7,6 +7,8 @@ public class ex03 {
             System.out.print("informe um némero inteiro: ");
 
             int num = teclado.nextInt();
+            teclado.close();
+            
             int quad = (int)Math.pow(num,2);
             System.out.println("O quadrado do número informado é : "+quad);
 

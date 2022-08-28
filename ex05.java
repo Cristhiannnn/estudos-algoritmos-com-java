@@ -10,6 +10,7 @@ public class ex05 {
 
             float fah = in.nextFloat();
             float cel = ((fah-32)*5/9);
+            in.close();
 
             System.out.println("Ok "+ fah + " º Fahrenheigt seria o mesmo que "+ cel + " º em celsius");
 

@@ -15,6 +15,7 @@ public class ex04 {
 
             float alt = imput.nextFloat();
             float area = (base*alt/2f);
+            imput.close();
 
             System.out.println("A área total do triângulo fica com "+ area + " cm");
 

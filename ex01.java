@@ -13,6 +13,7 @@ public class ex01 {
         System.out.print("Digite um número inteiro: ");
 
             int inteiro = teclado.nextInt();
+            teclado.close();
             int antecessor = (inteiro - 1);
 
         System.out.println("O número antecessor ao que você digitou é "+antecessor);

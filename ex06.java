@@ -11,6 +11,7 @@ public class ex06 {
 
         System.out.print("Informe a nota da prova 02: ");
         float nota2 = in.nextFloat();
+        in.close();
         
         float med = (nota1 + nota2)/2;
 

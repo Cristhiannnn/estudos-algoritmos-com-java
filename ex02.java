@@ -10,6 +10,7 @@ public class ex02 {
             System.out.print("Digite um número: ");
 
             float numero = teclado.nextFloat();
+            teclado.close();
             float atualizado = (numero * 0.2f + numero);
         
             System.out.println("A atualização com 20% fica: "+atualizado);
