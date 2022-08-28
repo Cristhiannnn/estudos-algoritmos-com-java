@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch ex07",
+            "request": "launch",
+            "mainClass": "ex07",
+            "projectName": "estudos-algoritmos-com-java_217e6abe"
+        },
+        {
+            "type": "java",
+            "name": "Launch ex06",
+            "request": "launch",
+            "mainClass": "ex06",
+            "projectName": "estudos-algoritmos-com-java_217e6abe"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
