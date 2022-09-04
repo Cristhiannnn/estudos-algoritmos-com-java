@@ -5,13 +5,12 @@ public class lista2Ex03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int numero;
-        String resp;
 
         System.out.print("Digite um número qualquer:");
         numero = input.nextInt();
-        resp = input.next();
 
-        while (resp == "S") {
+        input.close();
+
             if (numero > 0) {
                 System.out.printf("O número %d é positivo!\n", numero);
             } else if (numero < 0) {
@@ -19,9 +18,7 @@ public class lista2Ex03 {
             } else {
                 System.out.printf("O número %d é neutro!\n", numero);
             }
-            System.out.print("Deseja continuar? ");
-        
-            resp = input.next();
-    }
+           
+    
         }
 }
