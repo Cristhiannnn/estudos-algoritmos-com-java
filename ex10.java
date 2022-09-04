@@ -26,11 +26,21 @@ public class ex10 {
          System.out.print("Quantidade de pagantes: ");
          pagantes = in.nextInt();
 
+         in.close();
+
          int total = (socios+crianças+pagantes);
-         float valorsoc = valor-(0.30f*valor);
-         float rendatotal =(pagantes*valor)-(socios*valorsoc);
+         float valorsoc =(valor*socios)*0.3f;
+         float rendatotal =(pagantes*valor*socios-valorsoc);
          float descontos = (total*valor)- rendatotal;
-         System.out.println(descontos);
+         
+         System.out.println("-> Neste evento tivemos a presença de "+ total + " de pessoas presentes.");
+
+         System.out.println("-> O evento deixou "+rendatotal +" R$ de arrecadação.");
+
+         System.out.println("-> E teve computado o valor de "+ descontos + " R$ de descontos que deixaram de ser arrecadados.");
+
+         
+
          
 
 
