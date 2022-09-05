@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch lista2Ex06",
+            "request": "launch",
+            "mainClass": "lista2Ex06",
+            "projectName": "estudos-algoritmos-com-java_217e6abe"
+        },
+        {
+            "type": "java",
+            "name": "Launch lista2Ex04",
+            "request": "launch",
+            "mainClass": "lista2Ex04",
+            "projectName": "estudos-algoritmos-com-java_217e6abe"
+        },
+        {
+            "type": "java",
             "name": "Launch lista2Ex03",
             "request": "launch",
             "mainClass": "lista2Ex03",
