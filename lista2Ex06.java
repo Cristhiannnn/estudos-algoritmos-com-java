@@ -24,8 +24,9 @@ public class lista2Ex06 {
              idade = (anoatual - ano) - 1;
         } else { idade = (anoatual - ano);}
   
-         mescont = (idade*12)+(12-mesatual);
-         diacont = (idade*365)+(mesatual*30 + diaatual);
+         mescont = (idade*12) + mesatual;
+         diacont = (idade*365)+(mesatual*30)+ diaatual;
+        
          
         System.out.println("Sua idade exata é "+ idade + " anos "+ mescont + " meses " + diacont + " dias");
 
