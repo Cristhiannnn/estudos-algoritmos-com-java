@@ -23,12 +23,19 @@ public class lista2Ex06 {
         if (mesatual < mes) {
              idade = (anoatual - ano) - 1;
         } else { idade = (anoatual - ano);}
-  
-         mescont = (idade*12) + mesatual;
-         diacont = (idade*365)+(mesatual*30)+ diaatual;
+
         
-         
-        System.out.println("Sua idade exata é "+ idade + " anos "+ mescont + " meses " + diacont + " dias");
+        mescont = (idade*12) + (mes + 1);
+        diacont = (idade*365)+(mesatual*30)+ diaatual;
+        
+        
+        System.out.println("-> Você tem "+ idade + " anos.");
+
+        System.out.println("-> Você tem "+ mescont + " meses de idade.");
+
+        System.out.println("-> E você já viveu "+ diacont + " dias");
+
+
 
     }
 }
