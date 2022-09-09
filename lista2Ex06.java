@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class lista2Ex06 {
     public static void main(String[] args) {
         Calendar c= Calendar.getInstance();
-        int ano, mes, dia , idade , mescont , diacont;
+        int ano, mes, dia , idade , mescont , diacont, restames;
         int anoatual = c.get(Calendar.YEAR);
         int mesatual = c.get(Calendar.MONTH);
         int diaatual = c.get(Calendar.DAY_OF_MONTH);
@@ -24,9 +24,16 @@ public class lista2Ex06 {
              idade = (anoatual - ano) - 1;
         } else { idade = (anoatual - ano);}
 
-        
-        mescont = (idade*12) + (mes + 1);
-        diacont = (idade*365)+(mesatual*30)+ diaatual;
+
+        if (mes >= mesatual) {
+            restames = (12-mes)+mesatual+1;
+        } else {
+            restames = (12-mes)+mesatual+1-12;
+            
+        }
+
+        mescont = (idade*12) + restames;
+        diacont = (idade*365)+(restames*30)+ diaatual;
         
         
         System.out.println("-> Você tem "+ idade + " anos.");
