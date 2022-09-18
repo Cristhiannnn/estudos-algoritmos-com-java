@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch lista2Ex20",
+            "request": "launch",
+            "mainClass": "lista2Ex20",
+            "projectName": "estudos-algoritmos-com-java_217e6abe"
+        },
+        {
+            "type": "java",
+            "name": "Launch lista2Ex19",
+            "request": "launch",
+            "mainClass": "lista2Ex19",
+            "projectName": "estudos-algoritmos-com-java_217e6abe"
+        },
+        {
+            "type": "java",
+            "name": "Launch lista2Ex18",
+            "request": "launch",
+            "mainClass": "lista2Ex18",
+            "projectName": "estudos-algoritmos-com-java_217e6abe"
+        },
+        {
+            "type": "java",
+            "name": "Launch lista2Ex17",
+            "request": "launch",
+            "mainClass": "lista2Ex17",
+            "projectName": "estudos-algoritmos-com-java_217e6abe"
+        },
+        {
+            "type": "java",
             "name": "Launch lista2Ex16",
             "request": "launch",
             "mainClass": "lista2Ex16",
