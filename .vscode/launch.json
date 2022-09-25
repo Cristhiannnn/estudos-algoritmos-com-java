@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AvaliacaoEx05",
+            "request": "launch",
+            "mainClass": "AvaliacaoEx05",
+            "projectName": "estudos-algoritmos-com-java_217e6abe"
+        },
+        {
+            "type": "java",
+            "name": "Launch AvaliacaoEx04",
+            "request": "launch",
+            "mainClass": "AvaliacaoEx04",
+            "projectName": "estudos-algoritmos-com-java_217e6abe"
+        },
+        {
+            "type": "java",
+            "name": "Launch AvaliacaoEx03",
+            "request": "launch",
+            "mainClass": "AvaliacaoEx03",
+            "projectName": "estudos-algoritmos-com-java_217e6abe"
+        },
+        {
+            "type": "java",
+            "name": "Launch AvaliacaoEX02",
+            "request": "launch",
+            "mainClass": "AvaliacaoEX02",
+            "projectName": "estudos-algoritmos-com-java_217e6abe"
+        },
+        {
+            "type": "java",
             "name": "Launch lista2Ex25",
             "request": "launch",
             "mainClass": "lista2Ex25",
